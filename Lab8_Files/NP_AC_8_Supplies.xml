@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+<xsd:schema>
+<xsd:element name="dataroot">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="tblSupply" minOccurs="0" maxOccurs="unbounded"/>
+</xsd:sequence>
+<xsd:attribute name="generated" type="xsd:dateTime"/>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="tblSupply">
+<xsd:annotation>
+<xsd:appinfo>
+<od:index index-name="NumberOnHand" index-key="NumberOnHand " primary="no" unique="no" clustered="no" order="asc"/>
+<od:index index-name="SupplyID" index-key="SupplyID " primary="yes" unique="yes" clustered="no" order="asc"/>
+<od:tableProperty name="GUID" type="9" value="Oo144khuGkOKIfhDUl18bg==
+"/>
+<od:tableProperty name="Orientation" type="2" value="0"/>
+<od:tableProperty name="OrderByOn" type="1" value="0"/>
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAA6jXjiSG4aQ4oh+ENSXXxuAAAAAJmsn2tzLOVAAAAAAAAAAAB0AGIA
+bABTAHUAcABwAGwAeQAAAAAAAAApbv+Orih5TYK12tPdcR2/BwAAADqNeOJIbhpD
+iiH4Q1JdfG5TAHUAcABwAGwAeQBJAEQAAAAAAAAARgOydxzDFE6Neecd6s2X4AcA
+AAA6jXjiSG4aQ4oh+ENSXXxuRABlAHMAYwByAGkAcAB0AGkAbwBuAAAAAAAAAPq0
+neY1gM9MiIKptjHQvPYHAAAAOo144khuGkOKIfhDUl18bkMAbwBzAHQAAAAAAAAA
+jsXdX0EC00CSwtqnhOQAtgcAAAA6jXjiSG4aQ4oh+ENSXXxuTgB1AG0AYgBlAHIA
+TwBuAEgAYQBuAGQAAAAAAAAAb3G4nAmTL0CfQW9YRfT/QAcAAAA6jXjiSG4aQ4oh
++ENSXXxuTABhAHMAdABPAHIAZABlAHIARABhAHQAZQAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
+"/>
+<od:tableProperty name="DefaultView" type="2" value="2"/>
+<od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
+<od:tableProperty name="TotalsRow" type="1" value="0"/>
+<od:tableProperty name="FilterOnLoad" type="1" value="0"/>
+<od:tableProperty name="OrderByOnLoad" type="1" value="1"/>
+<od:tableProperty name="HideNewField" type="1" value="0"/>
+<od:tableProperty name="BackTint" type="6" value="100"/>
+<od:tableProperty name="BackShade" type="6" value="100"/>
+<od:tableProperty name="ThemeFontIndex" type="4" value="-1"/>
+<od:tableProperty name="AlternateBackThemeColorIndex" type="4" value="-1"/>
+<od:tableProperty name="AlternateBackTint" type="6" value="100"/>
+<od:tableProperty name="AlternateBackShade" type="6" value="100"/>
+<od:tableProperty name="ReadOnlyWhenDisconnected" type="1" value="0"/>
+<od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="-1"/>
+<od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="-1"/>
+<od:tableProperty name="PublishToWeb" type="2" value="1"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="SupplyID" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="KW7/jq4oeU2CtdrT3XEdvw==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="1290"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Description" type="10" value="Primary key"/>
+<od:fieldProperty name="Caption" type="12" value="Supply ID"/>
+<od:fieldProperty name="Required" type="1" value="1"/>
+<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+<od:fieldProperty name="DisplayControl" type="3" value="109"/>
+<od:fieldProperty name="IMEMode" type="2" value="0"/>
+<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+<od:fieldProperty name="UnicodeCompression" type="1" value="0"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="12"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Description" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="RgOydxzDFE6Neecd6s2X4A==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="2550"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+<od:fieldProperty name="DisplayControl" type="3" value="109"/>
+<od:fieldProperty name="IMEMode" type="2" value="0"/>
+<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+<od:fieldProperty name="UnicodeCompression" type="1" value="0"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="30"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="Cost" minOccurs="0" od:jetType="currency" od:sqlSType="money" type="xsd:double">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="+rSd5jWAz0yIgqm2MdC89g==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="870"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Format" type="10" value="$#,##0.00;($#,##0.00)"/>
+<od:fieldProperty name="DecimalPlaces" type="2" value="2"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="1033"/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="NumberOnHand" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="jsXdX0EC00CSwtqnhOQAtg==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="1935"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Format" type="10" value="Standard"/>
+<od:fieldProperty name="DecimalPlaces" type="2" value="0"/>
+<od:fieldProperty name="DefaultValue" type="12" value="0"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="DisplayControl" type="3" value="109"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="Caption" type="12" value="Number On Hand"/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="LastOrderDate" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="Format" type="10" value="Short Date"/>
+<od:fieldProperty name="GUID" type="9" value="b3G4nAmTL0CfQW9YRfT/QA==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="1755"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="IMEMode" type="2" value="0"/>
+<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ShowDatePicker" type="3" value="1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="Caption" type="12" value="Last Order Date"/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generated="2025-07-04T23:28:33">
+<tblSupply>
+<SupplyID>Broom01</SupplyID>
+<Description>Broom - natural</Description>
+<Cost>13.52</Cost>
+<NumberOnHand>16</NumberOnHand>
+<LastOrderDate>2021-01-21T00:00:00</LastOrderDate>
+</tblSupply>
+<tblSupply>
+<SupplyID>Broom04</SupplyID>
+<Description>Broom - synthetic, yellow</Description>
+<Cost>11.18</Cost>
+<NumberOnHand>27</NumberOnHand>
+<LastOrderDate>2021-03-18T00:00:00</LastOrderDate>
+</tblSupply>
+<tblSupply>
+<SupplyID>Dustpan01</SupplyID>
+<Description>Dustpan - plastic</Description>
+<Cost>3.95</Cost>
+<NumberOnHand>27</NumberOnHand>
+<LastOrderDate>2021-03-18T00:00:00</LastOrderDate>
+</tblSupply>
+<tblSupply>
+<SupplyID>Gloves01</SupplyID>
+<Description>Gloves - canvas - pair</Description>
+<Cost>6.99</Cost>
+<NumberOnHand>52</NumberOnHand>
+<LastOrderDate>2021-05-22T00:00:00</LastOrderDate>
+</tblSupply>
+<tblSupply>
+<SupplyID>Rake02</SupplyID>
+<Description>Rake - plastic</Description>
+<Cost>8.86</Cost>
+<NumberOnHand>15</NumberOnHand>
+<LastOrderDate>2020-11-30T00:00:00</LastOrderDate>
+</tblSupply>
+<tblSupply>
+<SupplyID>Rake03</SupplyID>
+<Description>Rake - metal collapsible</Description>
+<Cost>17.25</Cost>
+<NumberOnHand>49</NumberOnHand>
+<LastOrderDate>2021-06-13T00:00:00</LastOrderDate>
+</tblSupply>
+<tblSupply>
+<SupplyID>Vest01LG</SupplyID>
+<Description>Vest - safety, large</Description>
+<Cost>8.8</Cost>
+<NumberOnHand>45</NumberOnHand>
+<LastOrderDate>2020-12-16T00:00:00</LastOrderDate>
+</tblSupply>
+<tblSupply>
+<SupplyID>Vest01MD</SupplyID>
+<Description>Vest - safety, medium</Description>
+<Cost>8.8</Cost>
+<NumberOnHand>12</NumberOnHand>
+<LastOrderDate>2021-05-18T00:00:00</LastOrderDate>
+</tblSupply>
+<tblSupply>
+<SupplyID>Vest01XL</SupplyID>
+<Description>Vest - safety, XL</Description>
+<Cost>8.8</Cost>
+<NumberOnHand>38</NumberOnHand>
+<LastOrderDate>2021-01-03T00:00:00</LastOrderDate>
+</tblSupply>
+</dataroot>
+</root>
